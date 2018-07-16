@@ -1,0 +1,13 @@
+{
+  "name": "hxprng",
+  "license": "Apache",
+  "tags": ["cross","haxe","random","game"],
+  "description": "Pseudorandom number generator",
+  "contributors": ["flashultra"],
+  "releasenote": "Initial version",
+  "version": "0.0.1",
+  "url": "https://github.com/flashultra/hxprng",
+  "dependencies": {
+
+  }
+}
