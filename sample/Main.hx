@@ -1,8 +1,4 @@
-import haxe.ds.Map;
-
-
-
-class Main {
+iclass Main {
 
     static function main() {
         var pg: PCG32 = new PCG32();
