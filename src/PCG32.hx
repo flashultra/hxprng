@@ -32,7 +32,7 @@ class PCG32
     public var MULTIPLIER : Int64 ;
 
     public function new()
-	{
+    {
         this.state = Int64.make(0x853c49e6,0x748fea9b);
         this.inc = Int64.make(0xda3e39cb,0x94b95bdb);
         MULTIPLIER = Int64.make(0x5851F42D,0x4C957F2D);
@@ -52,14 +52,16 @@ class PCG32
         pcg32Random();
     }
 
-     private function pcg32Random():Int {
+    private function pcg32Random():Int 
+    {
         var xorshifted : Int32 = (((state >>> 18) ^ state) >>> 27).low;
         var rot:Int32 =  (state >>> 59).low;
         state = state*MULTIPLIER + (inc|1);
         return (xorshifted >> rot) | (xorshifted << ((-rot) & 31));
     }
 
-    public function random(n:Int):Int {
+    public function random(n:Int):Int 
+    {
         if (n <= 0) {
             throw "n must be positive";
         }
