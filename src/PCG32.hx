@@ -73,4 +73,11 @@ class PCG32
         } while ( (bits - val + (n-1) ) < 0);
         return val;
     }
+    
+    public function randomFromInterval(min:Int,max:Int):Int
+    {
+       if (min >= max)
+            throw "min must be less than max";
+        return random(max - min) + min;
+    }
 }
