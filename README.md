@@ -12,6 +12,6 @@ You should call method `random(n:Int)` . This will return a random integer betwe
 To get random number between range ( min - max) you can use `randomFromInterval(min:Int, max:Int)` , where min < max
 ```haxe
  var pg: PCG32 = new PCG32();
- var month : Int = pg.randomFromInterval(1,12); // return a value between 1 and 12 (included)
+ var month : Int = pg.randomFromRange(1,12); // return a value between 1 and 12 (included)
  trace("Month : " + month);
 ```
