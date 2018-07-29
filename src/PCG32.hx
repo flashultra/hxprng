@@ -74,7 +74,7 @@ class PCG32
         return val;
     }
     
-    public function randomFromInterval(min:Int,max:Int):Int
+    public function randomFromRange(min:Int,max:Int):Int
     {
        if (min >= max)
             throw "min must be less than max";
