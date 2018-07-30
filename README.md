@@ -15,3 +15,7 @@ To get random number between range ( min - max) you can use `randomFromInterval(
  var month : Int = pg.randomFromRange(1,12); // return a value between 1 and 12 (included)
  trace("Month : " + month);
 ```
+
+#License
+ Apache 2.0 is used for PCG 
+ MIT license for all other algorithms
