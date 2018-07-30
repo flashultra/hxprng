@@ -16,6 +16,6 @@ To get random number between range ( min - max) you can use `randomFromInterval(
  trace("Month : " + month);
 ```
 
-#License
- Apache 2.0 is used for PCG 
- MIT license for all other algorithms
+## License
+ Apache 2.0 is used for PCG number generator  
+ MIT license for all other number generator
