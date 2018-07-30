@@ -9,7 +9,7 @@ You should call method `random(n:Int)` . This will return a random integer betwe
  trace("Dice : " + rnd);
 ```
 
-To get random number between range ( min - max) you can use `randomFromInterval(min:Int, max:Int)` , where min < max
+To get random number between range ( min - max) you can use `randomFromRange(min:Int, max:Int)` , where min < max
 ```haxe
  var pg: PCG32 = new PCG32();
  var month : Int = pg.randomFromRange(1,12); // return a value between 1 and 12 (included)
@@ -18,4 +18,4 @@ To get random number between range ( min - max) you can use `randomFromInterval(
 
 ## License
  Apache 2.0 is used for PCG number generator  
- MIT license for all other number generator
+ MIT license for all other number generators
