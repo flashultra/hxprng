@@ -1,4 +1,4 @@
-iclass Main {
+class Main {
 
     static function main() {
         var pg: PCG32 = new PCG32();
