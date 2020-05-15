@@ -21,6 +21,8 @@
  *       http://www.pcg-random.org
  */
 
+package hxprng;
+
 import haxe.Timer;
 import haxe.Int32;
 import haxe.Int64;

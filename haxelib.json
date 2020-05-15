@@ -3,11 +3,10 @@
   "license": "Apache",
   "tags": ["cross","haxe","random","game"],
   "description": "Pseudorandom number generator",
-  "contributors": ["flashultra"],
+  "contributors": ["flashultra", "NQNStudios"],
+  "classPath": "src/",
   "releasenote": "Initial version",
   "version": "0.0.1",
   "url": "https://github.com/flashultra/hxprng",
-  "dependencies": {
-
-  }
+  "main": "sample.Main"
 }
