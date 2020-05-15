@@ -1,3 +1,7 @@
+package sample;
+
+import hxprng.PCG32;
+
 class Main {
 
     static function main() {
